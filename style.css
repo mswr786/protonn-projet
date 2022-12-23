@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_con{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+
+}
+.header{
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cairo';
+
+   }
+.header_left{
+    display: flex;
+    align-items: center;
+}
+.header_left > img{
+    height: 94px;
+}
+.header_left > ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+}
+.header_left > ul > li{
+    padding: 10px 0 10px 40px;
+    display: flex;
+    align-items: center;
+}
+.header_left a{
+    text-decoration: none;
+    color: black;
+}
+.header_right{
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+.header_right > ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_right > ul > li{
+    display: flex;
+    align-items: center;
+}
+.header_right a{
+    text-decoration: none;
+    color: black;
+}
+li.started > button{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 11px;
+    padding: 10px 20px;
+    font-size: medium;
+}
+
+/*everything*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.everything{
+    text-align: center;
+    padding-top: 120px;
+    margin: 80px 200px 0 200px;
+}
+.everything h2{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+.everything p{
+    margin: 40px 95px 40px 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.everything button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 17px;
+}
+.pay{
+    display: flex;
+
+}
+.credit_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credit_card p{
+    display: flex;
+    align-items: center;
+}
+.credit_card > i{
+    margin-right: 15px;
+}
+
+
+.free_trail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free_trail i{
+    margin-right: 15px;
+}
+.free_trail p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.everything img{
+    border-radius: 10%;
+    width: 85%;
+    margin-bottom: 110px;
+}
+
+/*Client*/
+
+.client{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.client_left{
+    width: 50%;
+}
+.client_left img{
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 100%;
+
+}
+.client_right{
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+}
+.client_right h2{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.client_right > p{
+    margin-right: 20%;
+    margin-bottom: 60px;
+}
+.user{
+    border-left: 3px solid orange;
+}
+.text{
+    margin-right: 20%;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.user_info{
+    display: flex;
+    align-items: center;
+}
+.user_info img{
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/*Pricing*/
+
+.pricing_container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+}
+.pricing_header{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.pricing_container_desc{
+    color: gray;
+    margin-bottom: 60px;
+}
+.pricing_container_info{
+    display: flex;
+    justify-content: center;
+}
+.pricing_plus{
+    width: 20%;
+    border: 2px solid rgb(228, 213, 213);
+    border-radius: 15px;
+    margin: 20px;
+}
+.plus_icon{   
+    margin: 40px;
+    color: blue;
+    border-radius: 50%;
+    background-color: aliceblue;
+    font-size: 100px;
+
+}
+.free{
+    font-weight: bold;
+    margin: 50px 3px;
+}
+.plus_facility{
+    margin: 20px 0;
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(156, 122, 122);
+}
+
+.pricing_premium{
+    background-color: blue;
+    width: 20%;
+    height: 600px;
+    border-radius: 15px;
+}
+.popular{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.pricing_popular{
+    margin: 5px;
+    background-color: white;
+    border-radius: 15px;
+    height: 92%;
+}
+
+.pricing_teams{
+    width: 20%;
+    border: 2px solid rgb(228, 213, 213);
+    border-radius: 15px;
+    margin: 20px;
+}
