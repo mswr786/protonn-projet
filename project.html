@@ -2,31 +2,57 @@
 <html>
     <head>
         <title>Protonn</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Cairo" rel='stylesheet'">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        </head>
     <body>
-        <div class="header_con">
-            <div class="header">
-            <div class="header_left">
+        <section class="header">
+        <div class="header_container"> 
+            <div class="logo">   
                 <img src="images/index.png">
+            </div>
+        
+            <nav class="navbar">
+                <div class="nav_left">         
+                    <ul>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Use Cases</a><i style="padding: 2px;" class="material-icons">arrow_drop_down</i></li>
+                    </ul>
+                </div>
+            
+                <div class="nav_right">
+                    <ul>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Resources</a><i style="padding: 2px;" class="material-icons">arrow_drop_down</i></li>
+                    </ul>  
+                </div>
+            </nav>
+            <div class="get_started">  
+                <button class="get_started_button" type="button">Get Started</button> 
+                <div id="hm" class="hamburger_icon"><i class="fa-solid fa-bars" style="font-size:28px;"></i></div> 
+                 
+            </div>
+        </div>   
+        </section>
+        <section>
+            <aside class="side_nav">
+                <div class="aside_logo">
+                    <img src="images/proton-logo-p.svg">
+                </div>
                 <ul>
                     <li><a href="#">Product</a></li>
-                    <li><a href="#">Use Cases</a><i style="padding: 2px;" class="material-icons">arrow_drop_down</i></li>
+                    <li><a href="#">Use Cases</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Resources</a></li>
                 </ul>
-            </div>
-            
-            <div class="header_right">
-                <ul>
-                    <li>Pricing</li>
-                    <li><a href="#">Resources</a><i style="padding: 2px;" class="material-icons">arrow_drop_down</i></li>
-                    <li class="started"><button type="button">Get Started</button> </li>
-                </ul>
-
-            </div>
-            </div>
-        </div>
+            </aside>
+        </section>
+        
+        <section class="main">
         <div class="container">
             
             <div class="everything">
@@ -40,7 +66,9 @@
                 <img src="images/employee.webp">
             </div>
         </div>
-            
+        </section>
+
+        <section class="client">
         <div class="client">
                 <div class="client_left">
                    <img src="images/L2.jpg"> 
@@ -57,6 +85,9 @@
                     </div>
                 </div>
         </div>
+        </section>
+        
+        <section class="pricing_section">
         <div class="pricing_container">
             <h2 class="pricing_header">All plans include a free, 3-month trail</h2>
             <p class="pricing_container_desc">No Credit Card needed. Sign Up today.</p>
@@ -110,6 +141,11 @@
                 </div>
             </div>
         </div>
+        </section>
+
+
+
+        <script type="text/javascript" src="script.js"></script>
 
     </body>
 </html>
